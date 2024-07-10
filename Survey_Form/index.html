@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Change</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <h1 id="title">Climate Survey Form</h1>
+    <p id="description">Survey regarding the climate changes happening in recent years</p>
+    
+    <form id="survey-form" action="">
+        <fieldset>
+       <label for="name">Enter your name:<input type="text" name="" id="name" required placeholder="John Doe"></label>
+       <label for="email">Enter your email:<input type="email" id="email" required placeholder="johndoe@example.com"></label>
+       <label for="number">Enter your age:<input type="number" name="" id="number" min="13" max="125"></label>
+        </fieldset>
+        <fieldset>
+       <label for="dropdown">
+        How much severe changes in climate do you felt this year compared to previous years?
+       <select id="dropdown">
+        <option value="" disabled>Select one</option>
+        <option value="Same">Same as previous year</option>
+        <option value="More">More adverse</option>
+        <option value="Improvement">Some improvement</option>
+       </label>
+       </select>
+        </fieldset>
+        <fieldset>
+            <legend>Select the season about which you are specifically talking about:</legend>
+       <label for="summer"><input type="radio" name="season" id="summer" value="summer">Summer</label>
+       <label for="winter"><input type="radio" name="season" id="winter" value="winter">Winter</label>
+        </fieldset>
+        <fieldset>
+            <legend>According to you are is(are) the reason(s) for the climate changes? </legend>
+            <label for="deforestation"><input type="checkbox" name="deforestation" id="deforestation">Deforestation</label>
+            <label for="carbon_emission"><input type="checkbox" name="carbon_emission" id="carbon_emission">Carbon Emission</label>
+            <label for="overpopulation"><input type="checkbox" name="overpopulation" id="overpopulation">Overpopulation</label>
+        </fieldset>
+        <fieldset>
+            <label for="">Describe more about your thoughts on climate changes:<textarea name="" id=""></textarea></label>
+        </fieldset>
+        <input type="submit" value="submit" id="submit">
+    </form>
+</body>
+
+</html>
